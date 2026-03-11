@@ -1,1 +1,1 @@
-print("ABCD")
+print("merge conflict")

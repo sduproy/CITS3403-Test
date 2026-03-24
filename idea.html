@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container py-4">
+        <nav class="navbar navbar-expand-lg border-bottom">
+        <div class = "container"> 
+            <a class="navbar-brand fw-500" href="#">moodtune</a>
+            <div class="navbar-nav mx-auto">
+                <a class="nav-link active" href="#">my board</a>
+                <a class="nav-link" href="#">discover</a>
+                <a class="nav-link" href="#">friends</a>
+            </div>
+            <div class="rounded-circle bg-success text-white d-flex align-items-center justify-content-center" style="width:32px; height:32px; font-size:12px;">SD
+            </div>
+        </div>
+        </nav>
+    
+        <div class="d flex-wrap gap-2 my-4">
+        <button class="btnn btn-dark btn-sm rounded-pill">all</button>
+        <button class="btn btn-outline secondary btn-sm rounded-pill">happy</button>
+        <button class="btn btn-outline secondary btn-sm rounded-pill">melancholy</button>
+        <button class="btn btn-outline secondary btn-sm rounded-pill">nostalgia</button>
+        <button class="btn btn-outline secondary btn-sm rounded-pill">sad</button>
+        </div>
+    </div>
+
+    <div class="row g-3 mb-4">
+        <div class="col-4">
+            <div class="p-3 rounded bg-light">
+                <div class="text-muted small">Songs logged</div>
+                <div class="fs-4 fw-500">47</div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="p-3 rounded bg-light">
+                <div class="text-muted small">Top mood</div>
+                <div class="fs-5 fw-500">happy</div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="p-3 rounded bg-light">
+                <div class="text-muted small">This week</div>
+                <div class="fs-4 fw-500">12</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row g-4">
+
+        <div class="col-6">
+            <div class="card border p-3">
+                <h6 class="fw-500 mb-3">Recently added</h6>
+                <button class="btn btn-dark btn-sm mb-3">+ add song</button>
+                
+                <div class="d-flex align-items-center gap-3 py-2 border-bottom">
+                    <div class="rounded bg-success-subtle d-flex align-items-center justify-content-center" style="width:36px; height:36px;">music</div>
+                    <div>
+                        <div class="fw-500 small">Galway Girl</div>
+                        <div class="text-muted" style="font-size:12px;">Ed Sheeran</div>
+                    </div>
+                    <span class="badge rounded-pill ms-auto" style="background:#E1F5EE; color: #085041;">chill</span>
+                </div>
+                <div class="d-flex align-items-center gap-3 py-2 border-bottom">
+                    <div class="rounded bg-success-subtle d-flex align-items-center justify-content-center" style="width:36px; height:36px;">music</div>
+                    <div>
+                        <div class="fw-500 small">Ghost</div>
+                        <div class="text-muted" style="font-size:12px;">Justin Beiber</div>
+                    </div>
+                    <span class="badge rounded-pill ms-auto" style="background:#4c79ec; color: #081050;">sad</span>
+                </div>
+                <div class="d-flex align-items-center gap-3 py-2 border-bottom">
+                    <div class="rounded bg-success-subtle d-flex align-items-center justify-content-center" style="width:36px; height:36px;">music</div>
+                    <div>
+                        <div class="fw-500 small">Don't Stop Belivin'</div>
+                        <div class="text-muted" style="font-size:12px;">Journey</div>
+                    </div>
+                    <span class="badge rounded-pill ms-auto" style="background:#f1ec51; color: #2b2602;">happy</span>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col-6 d-flex flex-column gap-4">
+            <div class="card border p-3">
+                <h6 class="fw-500 mb-3">Your top moods this week</h6>
+            </div>
+            
+            <div class="card border p-3">
+                <h6 class="fw-500 mb-3">Friends listening now</h6>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
